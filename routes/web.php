@@ -23,3 +23,22 @@ Route::get('/halamandua', function () {
 Route::get('/halamantiga', function () {
     return view('halamantiga');
 });
+Route::resource('halaman', 'zack');
+Route::get('zack/create', 'zack@create');
+
+Route::get('/mhs', function () {
+    return view('mhs');
+});
+Route::get('/file_create', function () {
+    return view('file_create');
+});
+
+Route::resource('karyawan','karyawan');
+
+Route::resource('user','tests');
+
+Route::resource('mahasiswa','Mahasiswa');
+
+Route::resource('file','File');
+
+

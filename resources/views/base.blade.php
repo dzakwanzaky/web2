@@ -40,10 +40,27 @@
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/halamandua">- Halaman Dua</a>
+                <a href="/mahasiswa"> Mahasiswa</a>
+                    <ul class="main-nav">
+                        <li><a href="/mhs">Create</a></li>
+                       
+                    </ul>
+                 
+            </li>
+         
+            <li>
+                <a href="/user"> User</a>
+                     <ul class="main-nav">
+                        <li><a href="/mhs">Create</a></li>
+                       
+                    </ul>
             </li>
             <li>
-                <a href="/halamantiga">- Halaman Tiga</a>
+                <a href="/file"> File</a>
+                     <ul class="main-nav">
+                        <li><a href="/file/create">Create</a></li>
+                        
+                    </ul>
             </li>
         </ul>
     </aside>
